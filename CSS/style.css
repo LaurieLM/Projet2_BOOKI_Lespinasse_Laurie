@@ -18,6 +18,132 @@ body {
     justify-content: center;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.header img {
+    width: 60px;
+    height: 20px;
+}
+
+.menu a {
+    font-size: 18px;
+    color: black;
+    padding: 21px 20px 0 10px;
+}
+
+.menu a:hover {
+    color: #0065FC;
+}
+
+.text-1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text-2 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.search-bar {
+    display: flex;
+    margin: 30px 0 30px 0;
+}
+
+.search-bar i {
+    font-size: 16px;
+    border: 1px solid #f2f2f2;
+    border-radius: 12px 0 0 12px;
+    background-color: #f2f2f2;
+    padding: 16px 18px 10px 18px;
+}
+
+.search-bar input {
+    width: 185px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #f2f2f2;
+}
+
+.search-bar input::placeholder {
+    color: black;
+    padding-left: 15px;
+}
+
+.search-bar form {
+    display: contents;
+}
+
+.search-bar .button-desktop {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0 12px 12px 0;
+    padding: 8px;
+}
+
+.search-bar .button-mobil {
+    visibility: hidden;
+}
+
+.filters {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filters p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.filters ul  {
+    height: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 17px;
+}
+
+.filters li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #d9d9d9;
+    border-radius: 50px 50px 50px 50px;
+    margin: 0 0 0 20px;
+    padding: 2px 16px 2px 6px;
+}
+
+.filters ul li:hover {
+    background-color: #DEEBFF;
+}
+
+.filters ul i {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: #0065FC;
+    padding: 11px 10px 11px 10px;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;

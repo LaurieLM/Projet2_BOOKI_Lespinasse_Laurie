@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 4px 4px 0 4px;
 }
 
 /****** Header ***********/
@@ -367,6 +368,33 @@ a {
 
 .activites-cards .card-title {
     margin-left: 15px;
+}
+
+
+/****** Footer ***********/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #F2F2F2;
+    margin: 50px 0 0 0;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    margin-right: 230px;
+}
+
+.footer-flex h5 a {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.footer-flex a {
+    margin: 0 0 13px 20px;
 }
 
 

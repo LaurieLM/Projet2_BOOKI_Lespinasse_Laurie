@@ -412,6 +412,14 @@ footer {
         width: 100%;
     }
 
+    .hebergements-cards .card {
+        width: 250px;
+    }
+
+    .txt {
+        margin: 15px 0 30px 30px;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -428,11 +436,28 @@ footer {
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activites-cards .card {
+        width: 198px;
+        height: 288px;
+    }
+
+    .activites-cards img {
+        height: 227px;
+    }
+
+    #title-card_3, #title-card_4 {
+        margin: 10px 0 0 15px;
+    }
+
+    .footer-flex {
+        margin-right: 105px;
     }
 }
 

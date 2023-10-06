@@ -474,7 +474,7 @@ footer {
 
     .logo {
         margin-bottom: 20px;
-        margin-left: 41%;
+        margin-left: 42%;
     }
 
     .menu {
@@ -501,7 +501,7 @@ footer {
     }
 
     .text-2 {
-        margin-left: 20px;
+        margin: 0px 20px;
     }
 
     .search-bar {
@@ -519,7 +519,7 @@ footer {
     .button-mobil {
         visibility: visible;
         padding: 0;
-        margin-left: -10px;
+        margin-left: -33px;
     }
     
     .button-mobil i {
@@ -543,24 +543,26 @@ footer {
 
     .filters ul {
         flex-wrap: wrap;
-        padding-left: 8px;
+        padding: 0 8px;
     }
 
     .filters li {
-        width: 138px;
+        width: 42%;
         height: 35px;
-        margin: 0 10px 15px 10px;
-        justify-content: space-evenly;
+        margin: 2% 1%;
+        justify-content: center;
+        padding: 2px 8px 2px 6px;
+
     }
 
     .logoinfo {
-        margin: 85px 0 15px 0;
+        margin: 96px 0 -25px 0;
     }
 
     .logoinfo i {
         margin-left: 20px;
         font-size: 14px;
-        width: 20px;
+        width: 22px;
         height: 20px;
     }
 
@@ -574,7 +576,6 @@ footer {
 
     .hebergements-and-populaires section {
         border-radius: 0;
-:
     }
 
     .populaires-cards {

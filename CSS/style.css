@@ -427,7 +427,9 @@ footer {
     }
 
     .hebergements-cards .card {
-        width: 250px;
+        /* width: 210px; */
+        width: 83%;
+
     }
 
     .txt {

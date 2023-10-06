@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 22px;
 }
 
 .header img {
@@ -41,7 +41,7 @@ body {
 
 .menu a:hover {
     color: #0065FC;
-    border-top: 2px solid #0065FC;
+    border-top: 3px solid #0065FC;
 }
 
 .text-1 {
@@ -583,7 +583,7 @@ footer {
     }
 
     .populaires-cards .card {
-        width: 305px;
+        width: 318%;
         margin: 20px 20px 0px 0px;
     }
 
@@ -591,13 +591,26 @@ footer {
         background-color: white;
     }
 
+    #hebergements {
+        margin: 30px 6% 10px 6%;
+    }
+
+    .hebergements-cards {
+        flex-direction: column;
+    }
     .hebergements-cards .card {
-        width: 315px;
+        width: 86%;
+        margin: 5%;
+    }
+
+    .activites-cards {
+        flex-direction: column;
     }
 
     .activites-cards .card {
-        width: 315px;
+        width: 91%;
         height: 215px;
+        margin: 4.5%;
     }
 
     .activites-cards img {

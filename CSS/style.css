@@ -585,6 +585,10 @@ footer {
         margin: 20px 20px 0px 0px;
     }
 
+    .hebergements {
+        background-color: white;
+    }
+
     .hebergements-cards .card {
         width: 315px;
     }

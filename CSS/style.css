@@ -106,46 +106,35 @@ body {
 }
 
 .filters p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
 
-.filters ul  {
-    height: 15px;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 17px;
-}
-
-.filters li {
+.filters-1, .filters-2  {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 30px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
-    border: 2px solid #d9d9d9;
-    border-radius: 50px 50px 50px 50px;
-    margin: 0 0 0 20px;
-    padding: 2px 16px 2px 6px;
 }
 
-.filters ul li:hover {
+.filters-1 li, .filters-2 li {
+    height: 30px;
+    border: 2px solid #d9d9d9;
+    border-radius: 25px;
+    margin: 0 0 0 20px;
+    padding: 10px 19px 0 19px;
+}
+
+.filters-1 li:hover, .filters-2 li:hover {
     background-color: #DEEBFF;
 }
 
-.filters ul i {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    font-size: 18px;
+.filters-1 li i, .filters-2 li i {
     color: #0065FC;
-    padding: 11px 10px 11px 10px;
+    font-size: 20px;
 }
 
 .logoinfo {
@@ -407,13 +396,13 @@ footer {
         align-items: flex-start;
     }
 
-    .filters ul {
+    /* .filters ul {
         padding: 0;
     }
 
     .filters li {
         margin: 20px 20px 0 0;
-    }
+    } */
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -546,7 +535,7 @@ footer {
         margin: 10px 0 0 20px;
     }
 
-    .filters ul {
+    /* .filters ul {
         flex-wrap: wrap;
         padding: 0 8px;
     }
@@ -558,7 +547,7 @@ footer {
         justify-content: center;
         padding: 2px 8px 2px 6px;
 
-    }
+    } */
 
     .logoinfo {
         margin: 96px 0 -25px 0;

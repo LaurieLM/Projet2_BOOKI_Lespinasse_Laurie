@@ -412,6 +412,10 @@ footer {
         font-size: 17px;
     }
 
+    .logoinfo {
+        margin: 40px 0 15px 0;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -544,19 +548,25 @@ footer {
         margin: 10px 0 0 20px;
     }
 
-    /* .filters ul {
-        flex-wrap: wrap;
-        padding: 0 8px;
+    .filters-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
     }
 
-    .filters li {
-        width: 42%;
-        height: 35px;
-        margin: 2% 1%;
-        justify-content: center;
-        padding: 2px 8px 2px 6px;
+    .filters-1, .filters-2 {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
 
-    } */
+    .filters-1 li, .filters-2 li {
+        width: 113px;
+        margin: 0 2px;
+        padding: 10px 10px 0 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
 
     .logoinfo {
         margin: 96px 0 -25px 0;
@@ -565,7 +575,7 @@ footer {
     .logoinfo i {
         margin-left: 20px;
         font-size: 14px;
-        width: 22px;
+        width: 19px;
         height: 20px;
     }
 

@@ -98,14 +98,14 @@ body {
     visibility: hidden;
 }
 
-.filters {
+.filters-section {
     list-style: none;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.filters p {
+.filters-section p {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
@@ -118,11 +118,11 @@ body {
     height: 30px;
 }
 
-.filters-1, .filters-2 {
+.filters {
     display: flex;
 }
 
-.filters-1 li, .filters-2 li {
+.filters div {
     height: 30px;
     border: 2px solid #d9d9d9;
     border-radius: 25px;
@@ -132,11 +132,11 @@ body {
     font-weight: bold;
 }
 
-.filters-1 li:hover, .filters-2 li:hover {
+.filters div:hover {
     background-color: #DEEBFF;
 }
 
-.filters-1 li i, .filters-2 li i {
+.filters div i {
     color: #0065FC;
     font-size: 20px;
 }
@@ -397,21 +397,21 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .filters {
+    .filters-section {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .filters-1, .filters-2 {
+    .filters {
         margin-top: 35px;
     }
 
-    .filters-1 li, .filters-2 li {
+    .filters div {
         font-size: 15px;
         margin: 0 20px 0 0;
     }
 
-    .filters-1 li i, .filters-2 li i {
+    .filters div i {
         font-size: 17px;
     }
 
@@ -556,11 +556,11 @@ footer {
         border-radius: 15px;
     }
 
-    .filters {
+    .filters-section {
         flex-wrap: wrap;
     }
 
-    .filters p {
+    .filters-section p {
         margin: 10px 0 0 20px;
     }
 
@@ -570,13 +570,13 @@ footer {
         width: 100%;
     }
 
-    .filters-1, .filters-2 {
+    .filters {
         margin-top: 20px;
         width: 100%;
         justify-content: space-evenly;
     }
 
-    .filters-1 li, .filters-2 li {
+    .filters div{
         width: 113px;
         margin: 0 2px;
         padding: 10px 10px 0 10px;

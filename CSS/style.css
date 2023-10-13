@@ -234,9 +234,12 @@ a {
     margin: 30px 0 0 0;
 }
 
+.hebergements-cards a {
+    width: 30%;
+}
 
 .hebergements-cards .card {
-    width: 230px;
+    width: auto;
     box-shadow: 1px 3px 17px 0px #d9d9d9;
 }
 
@@ -422,10 +425,6 @@ footer {
 
     .hebergements {
         width: 100%;
-    }
-
-    .hebergements-cards .card {
-        width: 185px;
     }
 
     .txt {
@@ -632,9 +631,13 @@ footer {
         flex-direction: column;
         margin: 0;
     }
+
+    .hebergements-cards a {
+        width: 100%;
+    }
+    
     .hebergements-cards .card {
         margin: 20px 0 0 0;
-        width: auto;
     }
 
     .hebergements-cards .card-content {

@@ -16,7 +16,6 @@
 body {
     display: flex;
     margin:  0 auto;
-    border: 1px solid black;
     max-width: 1440px;
 }
 
@@ -44,10 +43,8 @@ body {
     border-top: 3px solid #0065FC;
 }
 
-.text-1 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
+h1 {
+    font-size: 30px;
 }
 
 .text-2 {
@@ -382,7 +379,7 @@ footer {
     flex-direction: column;
 }
 
-.footer-flex h5 a {
+.footer-flex h4 a {
     font-size: 18px;
     margin: 20px;
 }
@@ -397,6 +394,10 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    h1{
+        font-size: 20px;
+    }
+
     .filters-section {
         flex-direction: column;
         align-items: flex-start;
@@ -491,8 +492,14 @@ footer {
     .main-container {
         padding: 0;
     }
+
     .header {
         display: block;
+    }
+
+    h1{
+        font-size: 24px;
+        margin: 20px;
     }
 
     .logo {
@@ -665,7 +672,7 @@ footer {
         flex-direction: column;
     }
 
-    .footer-flex a, .footer-flex h5 a {
+    .footer-flex a, .footer-flex h4 a {
         margin: 0 0 13px 30px;
     }
 }
